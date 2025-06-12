@@ -16,10 +16,29 @@ Thumbs.db
 *.RData
 *.rds
 *.sqlite
-*.json
 *.xml
 *.feather
 *.parquet
+*.mat
+*.pk1
+*.npz
+*.npy
+*.db
+*.fig
+*.mdl
+*.slx
+
+# === JSON ===
+*.json        # Block all JSON files by default
+
+# Allow specific known-safe JSON files
+!package-lock.json
+!poetry.lock
+!config.example.json
+!metadata.json
+!schema.json
+!manifest.json
+!*.lock.json
 
 # === Config / credentials ===
 .env
@@ -90,3 +109,42 @@ reports/
 /data/*
 !data/.gitkeep
 !data/README.md
+
+# === Additional research data types ===
+# Imaging & biosignals
+*.nii
+*.nii.gz
+*.dcm
+*.edf
+*.bdf
+*.eeg
+*.vhdr
+*.vmrk
+
+# Genomics & bioinformatics
+*.fastq
+*.fasta
+*.fna
+*.bam
+*.sam
+*.vcf
+*.gtf
+*.gff
+*.bed
+*.wig
+*.bigWig
+
+# Audio/video data
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.wav
+*.flac
+
+# Archives
+*.zip
+*.tar.gz
+*.7z
+*.rar
