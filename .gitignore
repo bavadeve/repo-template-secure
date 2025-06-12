@@ -87,4 +87,6 @@ outputs/
 figures/
 results/
 reports/
-data/
+/data/*
+!data/.gitkeep
+!data/README.md
