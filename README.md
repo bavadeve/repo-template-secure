@@ -1,5 +1,5 @@
 
-# 🧪 Research Project Template (Secure & Reproducible)
+# Research Project Template (Secure & Reproducible)
 
 This repository is based on a GitHub template designed for researchers. It helps you:
 
@@ -9,7 +9,7 @@ This repository is based on a GitHub template designed for researchers. It helps
 
 ---
 
-## ✅ What’s included
+## What’s included
 
 | File or Folder         | Purpose                                                   |
 |------------------------|-----------------------------------------------------------|
@@ -25,7 +25,7 @@ This repository is based on a GitHub template designed for researchers. It helps
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone this repository:
    ```bash
@@ -42,14 +42,14 @@ This repository is based on a GitHub template designed for researchers. It helps
    git push
    ```
 
-> 🧠 Tip: If you’re working with others, you can create a new branch for your changes using:
+> Tip: If you’re working with others, you can create a new branch for your changes using:
 > ```bash
 > git checkout -b my-analysis
 > ```
 
 ---
 
-## 🧪 Optional: Enable Pre-Commit Checks
+## Optional: Enable Pre-Commit Checks
 
 You can install `pre-commit` to catch large files and formatting issues before you commit.
 
@@ -62,7 +62,7 @@ This step is optional, but helpful!
 
 ---
 
-## 📚 More Help
+## More Help
 
 - [📁 docs/overview.md](docs/overview.md): what this template is for
 - [📁 docs/data-handling.md](docs/data-handling.md): how to work safely with data
@@ -72,7 +72,7 @@ This step is optional, but helpful!
 
 ---
 
-## 🔐 Security Notice
+## Security Notice
 
 This template helps prevent common mistakes, but always double-check before committing anything sensitive.
 If you’re not sure, ask someone on your team or see [`SECURITY.md`](SECURITY.md).
