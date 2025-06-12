@@ -64,11 +64,11 @@ This step is optional, but helpful!
 
 ## More Help
 
-- [📁 docs/overview.md](docs/overview.md): what this template is for
-- [📁 docs/data-handling.md](docs/data-handling.md): how to work safely with data
-- [📁 docs/reproducibility.md](docs/reproducibility.md): making your project easy to repeat
-- [📁 docs/security-workflows.md](docs/security-workflows.md): what the automatic checks do
-- [📁 docs/faq.md](docs/faq.md): common questions, answered
+- [docs/overview.md](docs/overview.md): what this template is for
+- [docs/data-handling.md](docs/data-handling.md): how to work safely with data
+- [docs/reproducibility.md](docs/reproducibility.md): making your project easy to repeat
+- [docs/security-workflows.md](docs/security-workflows.md): what the automatic checks do
+- [docs/faq.md](docs/faq.md): common questions, answered
 
 ---
 
