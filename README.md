@@ -1,4 +1,3 @@
-
 # Research Project Template (Secure & Reproducible)
 
 This repository is based on a GitHub template designed for researchers. It helps you:
@@ -9,47 +8,36 @@ This repository is based on a GitHub template designed for researchers. It helps
 
 ---
 
-## What’s included
+## What’s Included
 
 | File or Folder         | Purpose                                                   |
 |------------------------|-----------------------------------------------------------|
-| `.github/workflows/`   | Automatic checks to prevent uploading confidential files |
-| `.pre-commit-config.yaml` | Optional local checks before committing changes        |
-| `.gitignore`           | Prevents Git from tracking common data or secret files    |
-| `/data/`               | A safe place to store your local data (Git will ignore it)|
-| `README.md`            | This file — overview of your project and setup            |
-| `SECURITY.md`          | What to do if something goes wrong                        |
-| `CONTRIBUTING.md`      | How to contribute safely and clearly                      |
-| `LICENSE`              | Open license for this project (MIT)                       |
-| `docs/`                | Extra guidance for reproducibility, data handling, and security |
+| `.github/workflows/`   | Automated checks to block sensitive files                 |
+| `.pre-commit-config.yaml` | Optional local safety checks before committing        |
+| `.gitignore`           | Prevents Git from tracking large or confidential files    |
+| `/data/`               | Local-only folder for sensitive data (excluded from Git)  |
+| `README-template.md`   | Fill-in template for your actual project documentation    |
+| `SECURITY.md`          | How data and code are protected                          |
+| `CONTRIBUTING.md`      | Guidance for contributors                                 |
+| `docs/`                | Plain-language guides on security, data, and reproducibility |
 
 ---
 
 ## Getting Started
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
-   ```
-
-2. Add your scripts to the main folder and data files to `/data/`.
-
-3. Commit your changes (data is ignored automatically):
-   ```bash
-   git add .
-   git commit -m "Initial analysis script"
-   git push
-   ```
+1. Click the green **“Use this template”** button on GitHub.
+2. Create a **new, private** repository for your research project.
+3. Replace this file with the included [`README-template.md`](README-template.md), which is meant for your own project description.
 
 > Tip: If you’re working with others, you can create a new branch for your changes using:
+>
 > ```bash
 > git checkout -b my-analysis
 > ```
 
 ---
 
-## Optional: Enable Pre-Commit Checks
+### Optional: Enable Pre-Commit Checks
 
 You can install `pre-commit` to catch large files and formatting issues before you commit.
 
@@ -76,6 +64,17 @@ This step is optional, but helpful!
 
 This template helps prevent common mistakes, but always double-check before committing anything sensitive.
 If you’re not sure, ask someone on your team or see [`SECURITY.md`](SECURITY.md).
+
+### Note on Public Repos
+
+We recommend that all new repositories start private by default.
+Only make a repo public once:
+
+- You're sure no sensitive data has ever been committed
+
+- The security-scan GitHub Action passes
+
+- You've reviewed your README.md, LICENSE, and code
 
 ---
 
