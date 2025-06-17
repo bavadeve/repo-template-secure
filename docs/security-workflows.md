@@ -65,7 +65,7 @@ After that, `pre-commit` will run every time you commit something. You can alway
 
 ---
 
-## 🧠 Summary: Three Layers of Safety
+## Summary: Three Layers of Safety
 
 | Tool              | When it runs     | What it catches                                 |
 |-------------------|------------------|--------------------------------------------------|
