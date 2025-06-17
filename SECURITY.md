@@ -21,9 +21,9 @@ Out of scope: Leaks via local runtime or SPE-contained environments (e.g., myDRE
 ### 1. Prevent Confidential Data Exposure
 
 - Never commit files with the following extensions:
-  
+
   - `.csv`, `.xlsx`, `.sav`, `.RData`, `.json`, `.env`, `.pem`, `.key`, `.pfx`
-  
+
 - Make sure all that these extensions are added to the `.gitignore` file
 - Store data files in /data/ folder. Add `/data/` to `.gitignore`.
 - Never hardcode paths to sensitive files — use environment variables instead
@@ -45,7 +45,7 @@ pip install pre-commit
 pre-commit install
 ```
 
-It will then run automatically on each `git commit`.  
+It will then run automatically on each `git commit`.
 See `.pre-commit-config.yaml` in this repository for configuration.
 
 - Include a checklist in each pull request to confirm that:
