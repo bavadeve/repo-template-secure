@@ -62,4 +62,4 @@ This project is licensed under the MIT License, unless stated otherwise.
 
 If you have questions about this repository, contact:
 
-[Your Name] – [your.email@example.edu]
+[Bauke van der Velde](mailto:b.vandervelde@amsterdamumc.nl)
