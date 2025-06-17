@@ -1,4 +1,4 @@
-# 🔐 How This Project Helps Protect Your Data
+# How This Project Helps Protect Your Data
 
 This project includes automated checks and setup files that help reduce the risk of accidentally uploading sensitive data to GitHub.
 
@@ -10,8 +10,8 @@ These checks are not perfect — but together, they catch most common mistakes b
 
 Each time you upload changes to GitHub (a “push” or pull request), GitHub will run an automated check.
 
-✅ If everything looks okay, your changes are accepted.
-❌ If you accidentally added a file with a sensitive extension (like `.csv` or `.env`), the check will fail, and GitHub will show a red ❌ with a message.
+- If everything looks okay, your changes are accepted.
+- If you accidentally added a file with a sensitive extension (like `.csv` or `.env`), the check will fail, and GitHub will show a red ❌ with a message.
 
 > ⚠️ Important: This check runs **after** your code is already uploaded. It does **not prevent** you from uploading files — it just notifies you if something went wrong.
 
@@ -43,11 +43,11 @@ It runs automatic checks every time you try to commit something locally — like
 
 This template includes a ready-to-use `.pre-commit-config.yaml` that:
 
-✅ Blocks files larger than 100KB
-✅ Warns you about unresolved merge conflicts
-✅ Cleans up things like extra spaces or missing newlines
+- Blocks files larger than 100KB
+- Warns you about unresolved merge conflicts
+- Cleans up things like extra spaces or missing newlines
 
-### 🧪 How to enable it (once per computer)
+### How to enable it (once per computer)
 
 1. Install `pre-commit`:
 

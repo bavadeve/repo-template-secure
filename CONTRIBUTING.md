@@ -6,7 +6,7 @@ This project is structured for secure and reproducible research. Please follow t
 
 ---
 
-## 🧠 What you can contribute
+## What you can contribute
 
 We welcome:
 - Improvements to code or analysis scripts
@@ -16,7 +16,7 @@ We welcome:
 
 ---
 
-## 🧪 Reproducibility Practices
+## Reproducibility Practices
 
 - Scripts should be **runnable end-to-end** without manual intervention
 - For R:
@@ -30,7 +30,7 @@ We welcome:
 
 ---
 
-## 🔐 Security and Data Handling
+## Security and Data Handling
 
 We enforce a strict **no data** and **no secrets** in Git policy.
 
@@ -48,7 +48,7 @@ See [`SECURITY.md`](./SECURITY.md) for full policy.
 
 ---
 
-## 🧪 Pull Request Checklist
+## Pull Request Checklist
 
 Before opening a pull request, make sure:
 - [ ] Your code runs and is documented
@@ -59,7 +59,7 @@ Before opening a pull request, make sure:
 
 ---
 
-## 💬 How to Contribute
+## How to Contribute
 
 1. Fork the repository
 2. Create a feature branch:
