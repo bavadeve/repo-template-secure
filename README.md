@@ -10,16 +10,18 @@ This repository is based on a GitHub template designed for researchers. It helps
 
 ## What’s Included
 
-| File or Folder         | Purpose                                                   |
-|------------------------|-----------------------------------------------------------|
-| `.github/workflows/`   | Automated checks to block sensitive files                 |
-| `.pre-commit-config.yaml` | Optional local safety checks before committing        |
-| `.gitignore`           | Prevents Git from tracking large or confidential files    |
-| `/data/`               | Local-only folder for sensitive data (excluded from Git)  |
-| `README-template.md`   | Fill-in template for your actual project documentation    |
-| `SECURITY.md`          | How data and code are protected                          |
-| `CONTRIBUTING.md`      | Guidance for contributors                                 |
-| `docs/`                | Plain-language guides on security, data, and reproducibility |
+| File or Folder             | Purpose                                                   |
+|----------------------------|-----------------------------------------------------------|
+| `.github/workflows/`       | Automated checks to block sensitive files                 |
+| `.pre-commit-config.yaml`  | Optional local safety checks before committing            |
+| `.gitignore`               | Prevents Git from tracking large or confidential files    |
+| `.github/CODEOWNERS`       | Defines repository maintainers and reviewers              |
+| `CITATION.cff`             | Machine-readable citation file for citing your repo       |
+| `/data/`                   | Local-only folder for sensitive data (excluded from Git)  |
+| `README-template.md`       | Fill-in template for your actual project documentation    |
+| `SECURITY.md`              | How data and code are protected                           |
+| `CONTRIBUTING.md`          | Guidance for contributors                                 |
+| `docs/`                    | Plain-language guides on security, data, and reproducibility |
 
 ---
 
@@ -71,9 +73,7 @@ We recommend that all new repositories start private by default.
 Only make a repo public once:
 
 - You're sure no sensitive data has ever been committed
-
 - The security-scan GitHub Action passes
-
 - You've reviewed your README.md, LICENSE, and code
 
 ---
