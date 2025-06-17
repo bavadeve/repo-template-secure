@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/bavadeve/org-security-workflows
-    rev: main # or use a specific tag or commit hash
+    rev: e6ceb8e7a3f4cfcb2f5db0682bccc9281282de4a # or use a specific tag or commit hash
     hooks:
       - id: check-forbidden-filetypes
 
