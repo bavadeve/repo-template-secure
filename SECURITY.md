@@ -40,6 +40,7 @@ We recommend using [`pre-commit`](https://pre-commit.com/) to catch common issue
 > ⚠️ This tool is must be manually installed by each contributor.
 
 **To enable it:**
+
 ```bash
 pip install pre-commit
 pre-commit install
@@ -60,6 +61,7 @@ GitHub Actions CI is used to enforce security policy across all contributors. It
 - Optional secret scanning or environment enforcement (via reusable workflows)
 
 These checks run on:
+
 - Every push to `main` or `master`
 - Every pull request
 

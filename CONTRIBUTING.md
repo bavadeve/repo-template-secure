@@ -2,13 +2,16 @@
 
 Thank you for considering a contribution to this repository!
 
-This project is structured for secure and reproducible research. Please follow the guidelines below to help maintain quality, transparency, and data protection.
+This project is structured for secure and reproducible research.
+Please follow the guidelines below to help maintain quality,
+transparency, and data protection.
 
 ---
 
 ## What you can contribute
 
 We welcome:
+
 - Improvements to code or analysis scripts
 - Documentation and reproducibility enhancements
 - Suggestions for better data handling or security
@@ -35,11 +38,13 @@ We welcome:
 We enforce a strict **no data** and **no secrets** in Git policy.
 
 Do **not** commit:
+
 - `.csv`, `.xlsx`, `.RData`, `.sav`, `.json` data files
 - Secrets, API keys, tokens, passwords
 - Output files from private datasets
 
 **Instead:**
+
 - Add those file types to `.gitignore`
 - Use environment variables or a separate config file (not tracked by git)
 - Document how to access secure data in `README.md` (without revealing actual paths or content)
@@ -51,6 +56,7 @@ See [`SECURITY.md`](./SECURITY.md) for full policy.
 ## Pull Request Checklist
 
 Before opening a pull request, make sure:
+
 - [ ] Your code runs and is documented
 - [ ] You did **not** include any sensitive data
 - [ ] You added/updated `.gitignore` if needed
@@ -63,5 +69,7 @@ Before opening a pull request, make sure:
 
 1. Fork the repository
 2. Create a feature branch:
+
    ```bash
    git checkout -b feature/my-improvement
+   ```

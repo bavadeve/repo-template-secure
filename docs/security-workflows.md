@@ -26,6 +26,7 @@ This project includes a `.gitignore` file that tells Git:
 > “Don’t track or upload any files with these extensions.”
 
 This includes file types like:
+
 - `.csv`
 - `.xlsx`
 - `.RData`
